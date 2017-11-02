@@ -9,7 +9,7 @@ search.onclick= function()
    ajax.onreadystatechange = function()
    {
        if(ajax.readyState==4 && ajax.status==200){
-       alert(document.getElementById("result").innerHTML = this.responseText);
+       document.getElementById("result").innerHTML = this.responseText;
        
         }
         
